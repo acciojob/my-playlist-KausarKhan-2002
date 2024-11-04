@@ -46,22 +46,26 @@ a {
   color: #111;
 }
 
+#players {
+  border: 1px solid black;
+  width: 70%;
+  padding: 12px;
+  margin-top: 1rem;
+  background-color: #fff;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
 video,
 audio {
-  background-color: rgb(255, 255, 255);
-  border-radius: 7px;
-  width: 70%;
-  -webkit-border-radius: 7px;
-  -moz-border-radius: 7px;
-  -ms-border-radius: 7px;
-  -o-border-radius: 7px;
+  width: 100%;
 }
 
 video {
-  padding: 13px;
-  border: 1px solid black;
-  margin-top: 1rem;
-  width: 70%;
+  background-color: rgb(255, 255, 255);
 }
 
 p {
