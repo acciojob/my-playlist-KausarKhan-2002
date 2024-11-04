@@ -1,85 +1,28 @@
 /*  your css code here. If applicable */
-* {
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  background-color: rgb(204, 204, 204);
-}
-
-h1,
-h2 {
-  text-align: center;
-  margin-top: .2rem;
-}
-
-#container {
-  width: 600px;
-  border: 1px solid red;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-ul {
-  border: 1px solid black;
-  width: 80%;
-  margin-top: 1.2rem;
-  background: #fff;
-  padding: 1rem;
-  border-radius: 7px;
-  -webkit-border-radius: 7px;
-  -moz-border-radius: 7px;
-  -ms-border-radius: 7px;
-  -o-border-radius: 7px;
-}
-
-li {
-  list-style-type: none;
-  margin: 0.3rem;
-}
-
-a {
-  text-decoration: none;
-  color: #111;
-}
-
-#players {
-  border: 1px solid black;
-  width: 70%;
-  padding: 12px;
-  margin-top: 1rem;
-  background-color: #fff;
-  border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
-}
-
-video,
-audio {
-  width: 100%;
-}
-
-video {
-  background-color: rgb(255, 255, 255);
-}
-
-p {
-    text-align: left;
-    width: 70%;
-    margin-top: 1rem;
-    margin-bottom: .4rem;
-}
-
-audio {
-  border-radius: 27px;
-  -webkit-border-radius: 27px;
-  -moz-border-radius: 27px;
-  -ms-border-radius: 27px;
-  -o-border-radius: 27px;
-}
+  /* Additional CSS */
+        body {
+            background-color: rgb(204, 204, 204);
+            font-family: Arial, sans-serif;
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        ul {
+            padding: 0;
+        }
+        li {
+            list-style-type: none;
+            margin: 5px 0;
+        }
+        a {
+            text-decoration: none;
+            color: #333;
+        }
+        .player_one, .player_two {
+            background-color: rgb(255, 255, 255);
+            padding: 10px;
+            border-radius: 10px;
+            margin: 20px auto;
+            width: 80%;
+            max-width: 500px;
+        }
